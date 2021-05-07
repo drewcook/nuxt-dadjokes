@@ -1,14 +1,19 @@
 <template>
   <div>
-    <h2>Welcome to the best corny dad jokes app on the web.</h2>
+    <h1>About Dad Jokes</h1>
+    <p>
+      This is an app that displays corny dad jokes. It is built with the Nuxt.js
+      framework for building apps with Vue.js.
+    </p>
   </div>
 </template>
 
 <script>
 export default {
+  // Improve SEO with custom head tags
   head() {
     return {
-      title: 'DadJokes | Welcome to DadJokes',
+      title: 'DadJokes | About the App',
       meta: [
         {
           hid: 'description',
@@ -20,3 +25,5 @@ export default {
   },
 }
 </script>
+
+<style></style>
