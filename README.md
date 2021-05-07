@@ -24,5 +24,5 @@ $ npm run generate
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
 ---
-##Demo
+## Demo
 You can check out the demo app [here](https://dad-joker.herokuapp.com).
