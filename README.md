@@ -1,7 +1,9 @@
 # Nuxt Dad Jokes
-
+---
+## About this App
 This project is built with [Nuxt.js](https://nuxtjs.org), a server-side rendering framework for building applications in [Vue.js](https://vuejs.org). It also works with a third-party API for [dad jokes](https://dadjokes.io).
 
+---
 ## Build Setup
 
 ```bash
@@ -20,3 +22,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+---
+##Demo
+You can check out the demo app [here](https://dad-joker.herokuapp.com).
