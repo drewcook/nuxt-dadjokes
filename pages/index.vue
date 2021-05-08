@@ -1,6 +1,12 @@
 <template>
   <div>
-    <h2>Welcome to the best corny dad jokes app on the web.</h2>
+		<h1>Welcome to DadJokes!</h1>
+    <p>
+			Welcome to the best corny dad jokes app on the web.  You can check out different jokes by category, or search for jokes directly.
+		</p>
+		<p>
+			Check out the jokes page!
+		</p>
   </div>
 </template>
 
@@ -20,3 +26,10 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+p {
+	margin: 1rem 0;
+	font-size: 18px;
+}
+</style>
