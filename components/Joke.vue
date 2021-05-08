@@ -1,7 +1,14 @@
 <template>
   <nuxt-link :to="`jokes/${joke._id}`">
     <div class="joke">
-      <h4>{{ joke.setup }}</h4>
+      <h4>
+				{{joke.setup
+					? (joke.setup.includes('.') || joke.setup.includes('!'))
+						? joke.setup
+						: `${joke.setup}?`
+					: ''
+				}}
+			</h4>
     </div>
   </nuxt-link>
 </template>

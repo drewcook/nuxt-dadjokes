@@ -1,10 +1,25 @@
 <template>
   <div>
     <nuxt-link to="/jokes">Back To Jokes</nuxt-link>
-    <h3>{{ joke.setup }}</h3>
-    <p>
-      <em>{{ joke.punchline }}</em>
-    </p>
+			<h3>
+				{{joke.setup
+					? (joke.setup.includes('.') || joke.setup.includes('!'))
+						? joke.setup
+						: `${joke.setup}?`
+					: ''
+				}}
+			</h3>
+			<p>
+				<em>
+					{{joke.punchline
+						? (joke.setup.includes('.') || joke.setup.includes('!'))
+							? ''
+							: joke.punchline
+						: ''
+					}}
+				</em>
+			</p>
+		</div>
   </div>
 </template>
 
